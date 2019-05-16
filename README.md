@@ -1,8 +1,17 @@
-## Generating TV Script with RNN in PyTorch
-One of many Recurrent Neural Network(RNN) applications is to generate TV script. In this case, it can be seen that RNN memorizes all the words in the script, the sequence of words and the story as well. Therefore, memory is an essential component in RNN. This repo covers good introduction of RNN implementation in PyTorch with real implementation of script generation.
+# Generating TV Script with RNN in PyTorch
 
-## Original Repo
-This repo is originally from [Udacity-DeepLearning-PyTorch](https://github.com/udacity/deep-learning-v2-pytorch). It was a project in my Udacity deep learning nanodegree program.
+## Overview
+Writing scripts for a TV program is a mundane task. Imagine writing every words which come out from every characters in a movie to get a complete script. Intead of writing manually, why not leaving this mundane to computer? That is what going to be covered in this project. In this case, I used Recurrent Neural Network(RNN) implemented in PyTorch.
 
-## License
-This repo is under the **unlicensed**
+## Quick Start
+1. Clone this repository into your machine by typing the following command on your Linux terminal or Windows command prompt.
+```
+> git clone https://github.com/jhonsonlee/tv-script-generation-in-pytorch.git
+```
+2. Launch Jupyter Notebook in your machine by typing the following command.
+```
+> jupyter notebook
+```
+3. On your Jupyter Notebook console head to the directory where your clone the repository and then open `dlnd_tv_script_generation.ipynb`.
+
+Happy coding! Happy learning!
